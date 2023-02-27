@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--jost);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: #000;
+  /* text-align: center; */
+  background-color: #fff;
+}
+:root {
+  --jost: "Jost", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --cormor: "Cormorant Garamond", serif;
+}
+
+.t4s-pr {
+  position: relative;
+}
+.t4s-po {
+  position: absolute;
+}
+.t4s-oh {
+  overflow: hidden;
+}
+.t4s-item-w-100 {
+  width: 100%;
+}

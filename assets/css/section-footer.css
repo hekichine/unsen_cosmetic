@@ -1,0 +1,207 @@
+@media screen and (min-width: 1450px) {
+  .t4s-footer .t4s-container,
+  .t4s-footer .t4s-footer-bottom-container {
+    max-width: 1450px;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .t4s-footer .t4s-container,
+  .t4s-footer .t4s-footer-bottom-container {
+    max-width: 1600px;
+  }
+  .t4s-col-tel-2 .t4s-item-inner {
+    padding-left: 100px;
+  }
+  .t4s-col-tel-3 .t4s-item-inner {
+    padding-left: 26px;
+  }
+  .t4s-col-tel-4 .t4s-item-inner {
+    padding-left: 60px;
+  }
+  .t4s-col-tel-5 .t4s-item-inner {
+    padding-left: 65px;
+  }
+}
+@media screen and (min-width: 1750px) {
+  .t4s-footer .t4s-container,
+  .t4s-footer .t4s-footer-bottom-container {
+    max-width: 1742px;
+    padding: 0;
+  }
+}
+.t4s-footer-inner {
+  padding: 5px 0 60px 0;
+  margin: 0 auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.t4s-footer-inner .t4s-footer-item {
+  margin-top: 30px;
+}
+.t4s-footer-item .t4s-item-control {
+  display: none;
+}
+.t4s-footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.t4s-footer-item ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--jost);
+  transition: 0.3s linear;
+  line-height: 32px;
+}
+.t4s-footer-item ul li a:hover {
+  color: #56cfe1;
+}
+.t4s-footer-item .t4s-item-phone,
+.t4s-footer-item .t4s-item-mail {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--jost);
+  color: #000;
+  line-height: 1;
+}
+.t4s-footer-item .t4s-item-phone {
+  margin-top: 5px;
+}
+.t4s-footer-bottom {
+  padding: 15px 0;
+}
+.t4s-footer-bottom .t4s-row {
+  align-items: center;
+}
+.t4s-footer-bottom .t4s-ftbt-inner p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--jost);
+  color: #868686;
+  margin-bottom: 0;
+}
+.t4s-footer-item .t4s-lb {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--jost);
+  color: #000;
+  margin-bottom: 0;
+  line-height: 32px;
+}
+.t4s-footer-item .t4s-form-control {
+  position: relative;
+  border-bottom: 2px solid #000;
+}
+.t4s-form-control input {
+  outline: none;
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--jost);
+  color: #868686;
+  width: 100%;
+  padding-right: 30px;
+  line-height: 26px;
+}
+.t4s-form-control button {
+  outline: none;
+  width: 19px;
+  background-color: transparent;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.t4s-social ul {
+  display: flex;
+}
+.t4s-social ul li a {
+  margin-right: 26px;
+}
+.t4s-footer-inner .t4s-item-img {
+  margin-bottom: 20px;
+}
+.t4s-footer-content form {
+  margin-bottom: 27px;
+}
+.t4s-item-control .t4s-icon-footer-control {
+  transition: 0.3s linear;
+}
+.t4s-icon-footer-active {
+  transform: rotate(45deg);
+}
+.t4s-footer .t4s-footer-item .t4s-item-inner .t4s-item-phone {
+  padding-top: 5px;
+}
+.t4s-footer .t4s-footer-item .t4s-item-inner .t4s-item-img {
+  padding-top: 10px;
+}
+@media screen and (max-width: 1365px) {
+  .t4s-footer-inner {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .t4s-footer-inner {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .t4s-footer-inner .t4s-footer-item {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .t4s-footer-item .t4s-item-control {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .t4s-footer-item .t4s-item-inner {
+    display: none;
+    padding: 0 10px;
+  }
+  .t4s-footer-inner .t4s-footer-logo .t4s-item-inner {
+    display: block;
+    padding: 0;
+  }
+  .t4s-footer-item .t4s-item-control > span {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--jost);
+    color: #000;
+  }
+  .t4s-footer-inner .t4s-item-img {
+    margin-bottom: 0;
+  }
+  .t4s-footer-inner .t4s-footer-item {
+    margin-top: 15px;
+  }
+  .t4s-footer-bottom .t4s-ftbt-inner p {
+    margin-bottom: 10px;
+  }
+  .t4s-footer-item .t4s-item-control > span {
+    font-size: 14px;
+  }
+  .t4s-footer-item .t4s-item-phone,
+  .t4s-footer-item .t4s-item-mail {
+    font-size: 14px;
+  }
+  .t4s-footer-item ul li a {
+    font-size: 14px;
+  }
+  .t4s-footer-item .t4s-lb {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 325px) {
+}
